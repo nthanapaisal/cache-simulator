@@ -1,0 +1,36 @@
+Cache Simulator - cs3853 - Team 02 
+
+Trace File: A-9_new_1.5.pdf 2.trc
+
+***** Cache Input Parameters ***** 
+
+Cache Size: 1024 KB
+Block Size: 16 bytes
+Associativity: 2
+Replacement Policy: Round Robin
+
+***** Cache Calculate Values *****
+
+Total # Blocks: 65536
+Tag Size: 13 bits
+Index Size: 15 bits
+Total # Rows: 32768
+Overhead  Size: 114688 bytes
+Implementation Memory Size: 1136.00 KB (1163264 bytes)
+Cost: $56.80 
+
+***** Cache Simulation Results *****
+
+Total Cache Accesses:   387850
+Cache Hits:             374784
+Cache Misses:           13066
+--- Compulsory Misses:     12434
+--- Conflict Misses:       632
+
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:              96.6312%
+Miss Rate:              3.3688%
+CPI:                    4.39 Cycles/Instruction
+Unused Cache Space:     920.47 KB / 1136.0 KB = 80.2359%  Waste: $46.02
+Unused Cache Blocks:    53102 / 65536

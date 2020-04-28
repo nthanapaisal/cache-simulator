@@ -1,0 +1,19 @@
+CS 3853 - Computer Architecture - Spring 2020 
+-------------Team 2-------------
+Milestone #2
+
+Supakjeera Thanapaisal
+- plan the algorithm, mainly coded main file, put everything together and make sure everything works, documentation
+
+Kyle Becker
+- parse trace file, coded main file, write some necessary functions for milestone 2, Clean up codes, test cases, check for errors
+
+Joshua Garcia
+- Write all functions for CACHE HIT & MISS RATE section, print functions, functions documentation, organization
+
+------------To Execute this program-------------
+Sample Input Command lines:
+
+	python3 cachesim.py -f Trace1.trc -s 1024 -b 16 -a 2 -r RR
+
+	python3 cachesim.py -s 1024 -b 16 -a 2 -r RR
